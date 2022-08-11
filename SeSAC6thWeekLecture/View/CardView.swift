@@ -39,6 +39,7 @@ class CardView: UIView {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         
+        // 코드 베이스로 가지고 오는 형식.
         let view = UINib(nibName: "CardView", bundle: nil).instantiate(withOwner: self).first as! UIView
         
         view.frame = bounds
@@ -47,6 +48,9 @@ class CardView: UIView {
         
         self.addSubview(view)
         
+        // 카드뷰를 인터페이스 빌더 기반으로 만들고, 에이아웃도 설정했는데, false가 아닌 true가 나온다.
+        // true 오토레이아웃 적용이 되는 관점보다, 오토이사이징이 내부적으로 constraints 처리가 된다.
+        print(view.translatesAutoresizingMaskIntoConstraints)
     }
     
     // 코드 UI 초기화 구문

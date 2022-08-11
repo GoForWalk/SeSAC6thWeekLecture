@@ -16,14 +16,24 @@ class CardCollectionViewCell: UICollectionViewCell {
     // 변경되지 않는 UI
     override func awakeFromNib() {
         super.awakeFromNib()
+        print("*********", String(describing: self), #function)
         // Initialization code
         setupUI()
     }
 
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        print("====", String(describing: self), #function)
+        cardView.contentLabel.text = ""
+    }
+    
+    
     func setupUI() {
         cardView.backgroundColor = .clear
         cardView.posterImageView.backgroundColor = .lightGray
         cardView.posterImageView.layer.cornerRadius = 10
         cardView.likeButtonView.tintColor = .systemPink
+        cardView.contentLabel.text = ""
+
     }
 }

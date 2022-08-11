@@ -30,6 +30,7 @@
 		CF5BAEBB28A1F3900072B251 /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF5BAEB928A1F3900072B251 /* CardCollectionViewCell.xib */; };
 		CF5BAEBD28A1F6560072B251 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5BAEBC28A1F6560072B251 /* MainViewController.swift */; };
 		CF5BAEBF28A1FC270072B251 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5BAEBE28A1FC270072B251 /* MainTableViewCell.swift */; };
+		CFA721A428A343F0003CB655 /* TMDBAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA721A328A343F0003CB655 /* TMDBAPIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		CF5BAEB928A1F3900072B251 /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CardCollectionViewCell.xib; path = SeSAC6thWeekLecture/CardCollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
 		CF5BAEBC28A1F6560072B251 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CF5BAEBE28A1FC270072B251 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		CFA721A328A343F0003CB655 /* TMDBAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBAPIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				CF29FE2728A0977D00CE685F /* KakaoAPIManager.swift */,
+				CFA721A328A343F0003CB655 /* TMDBAPIManager.swift */,
 			);
 			path = APIManager;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				CF5BAEBF28A1FC270072B251 /* MainTableViewCell.swift in Sources */,
 				CF29FE2528A0951900CE685F /* URL+Extension.swift in Sources */,
 				CF5BAEB728A1E62E0072B251 /* CardView.swift in Sources */,
+				CFA721A428A343F0003CB655 /* TMDBAPIManager.swift in Sources */,
 				CF5BAEB028A1DEF90072B251 /* ReusableProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

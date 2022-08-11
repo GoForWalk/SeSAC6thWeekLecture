@@ -33,9 +33,11 @@ class ViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
+        tableView.prefetchDataSource = self
+        
         tableView.rowHeight = UITableView.automaticDimension
         print(#function, "START")
-//        requestBlog()
+        requestBlog()
         print(#function, "END")
     }
 
@@ -76,10 +78,7 @@ class ViewController: UIViewController {
         
         isExpended = !isExpended
         tableView.reloadData()
-        
     }
-    
-    
     
 }//: ViewController
 
@@ -110,6 +109,23 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
+    }
+}
+
+extension ViewController: UITableViewDataSourcePrefetching {
+    
+    func tableView(_ tableView: UITableView, prefetchRowsAt indexPaths: [IndexPath]) {
+        
+        for indexPath in indexPaths {
+            print(#function, indexPath.description)
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, cancelPrefetchingForRowsAt indexPaths: [IndexPath]) {
+        
+        for indexPath in indexPaths {
+            print(#function, indexPath.description)
+        }
     }
 }
 
