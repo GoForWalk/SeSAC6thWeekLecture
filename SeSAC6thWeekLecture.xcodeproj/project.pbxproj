@@ -22,6 +22,7 @@
 		CF29FE2528A0951900CE685F /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF29FE2428A0951900CE685F /* URL+Extension.swift */; };
 		CF29FE2828A0977D00CE685F /* KakaoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF29FE2728A0977D00CE685F /* KakaoAPIManager.swift */; };
 		CF29FE2A28A0ABEF00CE685F /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF29FE2928A0ABEF00CE685F /* ClosureViewController.swift */; };
+		CF4B3C2928A4939A00A47EDA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4B3C2828A4939A00A47EDA /* MapViewController.swift */; };
 		CF5BAEB028A1DEF90072B251 /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5BAEAF28A1DEF90072B251 /* ReusableProtocol.swift */; };
 		CF5BAEB328A1E0320072B251 /* SeSACButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5BAEB228A1E0310072B251 /* SeSACButton.swift */; };
 		CF5BAEB528A1E6030072B251 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF5BAEB428A1E6030072B251 /* CardView.xib */; };
@@ -48,6 +49,7 @@
 		CF29FE2428A0951900CE685F /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
 		CF29FE2728A0977D00CE685F /* KakaoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAPIManager.swift; sourceTree = "<group>"; };
 		CF29FE2928A0ABEF00CE685F /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
+		CF4B3C2828A4939A00A47EDA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		CF5BAEAF28A1DEF90072B251 /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
 		CF5BAEB228A1E0310072B251 /* SeSACButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACButton.swift; sourceTree = "<group>"; };
 		CF5BAEB428A1E6030072B251 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				CF29FE0128A08FFA00CE685F /* SceneDelegate.swift */,
 				CF29FE0328A08FFA00CE685F /* ViewController.swift */,
 				CF29FE0528A08FFA00CE685F /* Main.storyboard */,
+				CF4B3C2828A4939A00A47EDA /* MapViewController.swift */,
 				CF29FE2928A0ABEF00CE685F /* ClosureViewController.swift */,
 				CF5BAEBC28A1F6560072B251 /* MainViewController.swift */,
 				CF29FE0828A08FFB00CE685F /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 				CF5BAEB728A1E62E0072B251 /* CardView.swift in Sources */,
 				CFA721A428A343F0003CB655 /* TMDBAPIManager.swift in Sources */,
 				CF5BAEB028A1DEF90072B251 /* ReusableProtocol.swift in Sources */,
+				CF4B3C2928A4939A00A47EDA /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
