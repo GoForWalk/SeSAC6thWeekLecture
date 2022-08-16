@@ -22,3 +22,30 @@ extension UIViewController: ReusableProtocol { }
 extension UICollectionViewCell: ReusableProtocol { }
 
 extension UITableViewCell: ReusableProtocol { }
+
+protocol Sample {
+    
+    var a: Int { get }
+    var b: String { get set }
+}
+
+struct StuctSample: Sample {
+   
+    var a: Int
+    
+    var b: String
+        
+}
+
+class Follow {
+    
+    var sampleArray: [Sample] = []
+    
+    func samplefunc() {
+        
+        sampleArray.append(StuctSample(a: 0, b: "aaaa"))
+    }
+    
+    
+    
+}

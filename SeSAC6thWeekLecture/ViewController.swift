@@ -19,10 +19,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var cafeList: [String] = []
-    var blogList: [String] = []
+    private var cafeList: [String] = []
+    private var blogList: [String] = []
     
-    var isExpended = false // false 2줄, true 0줄
+    private var isExpended = false // false 2줄, true 0줄
     
     var str = "Fans<B>".replacingOccurrences(of: "<B>", with: "<v>")
     override func viewDidLoad() {
